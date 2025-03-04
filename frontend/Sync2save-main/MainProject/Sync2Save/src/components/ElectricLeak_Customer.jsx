@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ElectricLeaks_Customer.css";
+import "./ElectricLeak_Customer.css";
 import logo from '../assets/Logo.png'
 
 
@@ -92,4 +92,4 @@ function ElectricLeaks_Customer() {
 
 }
 
-export default ElectricLeaks_Customer;
+export default ElectricLeak_Customer;

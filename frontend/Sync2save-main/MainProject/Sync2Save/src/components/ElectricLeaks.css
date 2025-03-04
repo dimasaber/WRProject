@@ -30,7 +30,7 @@
   
   /* Button */
   button {
-    background-color: #4CAF50;
+    background-color: #17547f;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -41,7 +41,7 @@
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #17547f;
   }
   
   /* Customer Info */
@@ -63,11 +63,14 @@
 
   .container {
     
-    margin: 0 auto;
+    margin: 0;
     background: white;
-    padding: 20px;
+    padding: 7px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+
+    max-height: 95vw;
+
   }
   
   /* Remove extra padding/margins that might be causing nested frames */
@@ -76,9 +79,8 @@
     display: flex;
     flex-direction: column;
     align-items: left;
+    max-width: 60vw;
   }
-
-  
   
   .chart-wrapper {
     width: 80%;

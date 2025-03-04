@@ -11,9 +11,6 @@ const months = [
 ];
 
 
-
-
-
 function ElectricLeaks() {
   const [policyNumber, setPolicyNumber] = useState("");
   const [selectedMonth, setSelectedMonth] = useState("");
@@ -57,7 +54,7 @@ function ElectricLeaks() {
   };
 
   return (
-  <>
+  <div   className="container">
     Policy Number:&nbsp;
     <input type="text" value={policyNumber} onChange={(e) => setPolicyNumber(e.target.value)} />
 
@@ -84,7 +81,7 @@ function ElectricLeaks() {
         </p>
 
         {/* Ensure the chart takes full width */}
-        <ResponsiveContainer  width="100%" height={300}>
+        <ResponsiveContainer className="chart-container" width="100%" height={300}>
           <LineChart data={chartData}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="date" label={{ value: "Date", position: "insideBottomRight", offset: -5 }} />
@@ -96,7 +93,7 @@ function ElectricLeaks() {
         </ResponsiveContainer>
       </>
     )}
-  </>
+  </div>
 );
 
 }
