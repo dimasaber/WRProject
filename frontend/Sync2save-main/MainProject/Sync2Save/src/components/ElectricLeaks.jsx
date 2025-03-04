@@ -82,7 +82,7 @@ function ElectricLeaks() {
 
         {/* Ensure the chart takes full width */}
         <ResponsiveContainer className="chart-container" width="100%" height={300}>
-          <LineChart data={chartData}>
+          <LineChart className="chart-container" data={chartData}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="date" label={{ value: "Date", position: "insideBottomRight", offset: -5 }} />
             <YAxis label={{ value: "Voltage", angle: -90, position: "insideLeft" }} />
