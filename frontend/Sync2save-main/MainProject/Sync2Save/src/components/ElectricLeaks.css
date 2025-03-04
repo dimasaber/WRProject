@@ -1,0 +1,89 @@
+/* General Styles */
+
+  
+  /* Main Container */
+  div {
+    background: white;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Labels */
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  /* Inputs */
+  input, select {
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  /* Button */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Customer Info */
+  p {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  
+  /* Chart Container */
+  .ResponsiveContainer {
+    margin-top: 20px;
+  }
+  
+  /* Tooltip Styling */
+  .recharts-tooltip-wrapper {
+    font-size: 14px;
+    border-radius: 5px;
+  }
+
+  .container {
+    
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Remove extra padding/margins that might be causing nested frames */
+  .chart-container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  
+  
+  .chart-wrapper {
+    width: 80%;
+    align-self: center;
+    margin-top: 20px;
+  }
+  
+  

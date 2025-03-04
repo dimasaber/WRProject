@@ -1,0 +1,59 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 1200px;
+}
+
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.banner {
+  background-color: #007bff; /* Blue color */
+ color: white;
+  text-align: center;
+  padding: 0px;
+  font-size: 0.5em;
+  font-weight: bold;
+  position: relative; /* To position the logo inside */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Make the banner full width */
+  box-sizing: border-box; /* Include padding in width calculation */
+  margin: 0; /* Remove default margins */
+  height: 10vh; 
+  max-height: 10vh;
+  max-width: 1200px;
+}
+
+/* Logo in Corner */
+.logo-banner {
+  position: absolute;
+  left: 0px; /* Adjust spacing from the right */
+  top: 50%;
+  transform: translateY(-50%);
+  height: 10vh; /* Adjust size as needed */
+  max-height: 10vh;
+}
