@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ElectricLeaks.css";
+import "./ElectricLeaks_Customer.css";
 import logo from '../assets/Logo.png'
 
 
@@ -11,10 +11,7 @@ const months = [
 ];
 
 
-
-
-
-function ElectricLeaks() {
+function ElectricLeaks_Customer() {
   const [policyNumber, setPolicyNumber] = useState("");
   const [selectedMonth, setSelectedMonth] = useState("");
   const [customerName, setCustomerName] = useState("");
@@ -52,10 +49,6 @@ function ElectricLeaks() {
     }
   };
 
-  const handleToggleDiscount = () => {
-    setDiscount(prevDiscount => prevDiscount === "Yes" ? "No" : "Yes");
-  };
-
   return (
   <>
     Policy Number:&nbsp;
@@ -79,8 +72,6 @@ function ElectricLeaks() {
         <p><span style={{ fontWeight: "bold" }}>Policy Start Date:</span> {startDate}</p>
         <p><span style={{ fontWeight: "bold" }}>Policy End Date:</span> {endDate}</p>
         <p><span style={{ fontWeight: "bold" }}>Eligible for Discount:</span> {discount}{" "}
-        </p><p>
-          <button onClick={handleToggleDiscount}>Update Elligibility</button> {/* Toggle button */}
         </p>
 
         {/* Ensure the chart takes full width */}
@@ -101,4 +92,4 @@ function ElectricLeaks() {
 
 }
 
-export default ElectricLeaks;
+export default ElectricLeaks_Customer;

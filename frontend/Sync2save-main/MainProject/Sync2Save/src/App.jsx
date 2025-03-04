@@ -16,7 +16,7 @@ function App() {
     <img src={logo} alt="Company Logo" className="logo-banner" />
   </div>
   <div>
-    <ElectricLeaks />
+    <ElectricLeaks/>
     </div>
     </>
   )
